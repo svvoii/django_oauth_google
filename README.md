@@ -163,7 +163,7 @@ python manage.py createsuperuser
 `Name: Google`  
 `Client id: 'your_client_id' see below how to get it`   
 `Secret key: 'your_secret_key' see below how to get it`  
-`Sites: (choose the available `example.com` site on the left side `Available sites` and move it to the right side `Chosen sites` by clicking on the arrow pointing to the right side)` !!  
+`Sites:` (choose the available `example.com` site on the left side (`Available sites`) and move it to the right side (`Chosen sites`) by clicking on the arrow pointing to the right side).. Important! 
 
 - **Getting client_id and secret_key from Google Cloud Console:**
 *To get the client_id and secret_key go to your -> Google Cloud Console.*  
