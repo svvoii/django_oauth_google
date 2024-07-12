@@ -101,8 +101,8 @@ from user_app import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('accounts/', include('allauth.urls')), # this will include all the urls provided by django-allauth
+	path('admin/', admin.site.urls),
+	path('accounts/', include('allauth.urls')), # this will include all the urls provided by django-allauth
 	path('accounts/profile/', views.profile, name='profile'), # this is the profile page after the user is authenticated
 ]
 ```
