@@ -53,6 +53,8 @@ python manage.py startapp user_app
 # in the INSTALLED_APPS
 INSTALLED_APPS = [
 	...
+	'django.contrib.sites',
+	...
 	# django-allauth apps
 	'allauth',
 	'allauth.account',
