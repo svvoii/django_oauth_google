@@ -208,5 +208,15 @@ Django docs: [User authentication in Django](https://docs.djangoproject.com/en/5
 
 How to use Django Widgets to style forms: [Django Widgets](https://docs.djangoproject.com/en/5.0/ref/forms/widgets/)  
 
-3rd party authentication with Django: [allauth](https://docs.allauth.org/en/latest/)  
+3rd party authentication with Django: [allauth](https://docs.allauth.org/en/latest/)   
+
+How to build a provider for OAuth2.0 via API : [Django OAuth Toolkit](https://django-oauth-toolkit.readthedocs.io/en/latest/#)  
+
+Setting up a Django OAuth2 server & client : [link to a blog post](https://raphaelyancey.fr/en/2018/05/28/setting-up-django-oauth2-server-client.html)  
+
+42 API guide : [OAUTH2 flow](https://api.intra.42.fr/apidoc/guides/web_application_flow)  
+
+OAuth2.0 : [docs](https://oauth.net/2/)  
+
+
 
