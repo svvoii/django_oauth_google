@@ -167,8 +167,9 @@ python manage.py createsuperuser
 `Secret key: 'your_secret_key' see below how to get it`  
 `Sites:` (choose the available `example.com` site on the left side (`Available sites`) and move it to the right side (`Chosen sites`) by clicking on the arrow pointing to the right side).. Important! 
 
-- **Getting client_id and secret_key from Google Cloud Console:**
-*To get the client_id and secret_key go to your -> Google Cloud Console.*  
+- **Getting client_id and secret_key from Google Cloud Console:**  
+
+*To get the `client_id` and `secret_key` go to your -> [Google Cloud Console](https://console.cloud.google.com/).*  
 
 *Navigate to APIs & Services --> Credentials --> Create credentials --> OAuth client ID*  
 
@@ -184,8 +185,10 @@ python manage.py createsuperuser
 
 *Add the following to the Authorized redirect URIs:*  
 
-`http://127.0.0.1:8000/accounts/google/login/callback/`
-**NOTE:** *must be 127.0.0.1 and not localhost !!!*  
+```bash
+http://127.0.0.1:8000/accounts/google/login/callback/
+```
+**NOTE:** *must be `127.0.0.1` and not `localhost` !!!*  
 *For further project deployment this will need to be changed to the actual domain name.*  
 
 *Once you hit Create you will get the client_id and secret_key which you can use to fill in the fields in the django admin panel.*  
@@ -196,5 +199,14 @@ python manage.py createsuperuser
 
 *The user will be redirected to the profile page after the login.*  
 
-*DONE!*  
+**DONE!**  
+
+
+## Some Documentation:
+
+Django docs: [User authentication in Django](https://docs.djangoproject.com/en/5.0/topics/auth/)
+
+How to use Django Widgets to style forms: [Django Widgets](https://docs.djangoproject.com/en/5.0/ref/forms/widgets/)  
+
+3rd party authentication with Django: [allauth](https://docs.allauth.org/en/latest/)  
 
